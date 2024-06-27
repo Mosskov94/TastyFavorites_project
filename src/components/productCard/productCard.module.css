@@ -1,0 +1,32 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+    
+    
+    .productCard {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.058);
+        overflow: hidden; 
+        background-color: #2b272716;
+        color: rgb(0, 0, 0);
+        transition: transform 0.5s ease-in-out;
+    }
+    
+    .productCard:hover {
+        transform: translateY(-10px); 
+    }
+    
+    .productCard img {
+        width: 80%;
+        height: auto;
+        
+    }
+    
+    .productCard figcaption {
+        padding: 16px;
+        font-weight: bold;
+    }

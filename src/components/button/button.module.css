@@ -1,0 +1,17 @@
+.button {
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.3s;
+    cursor: pointer;
+    margin: 40px;
+  }
+  
+  .button:hover{
+    animation: bubble 0.4s ease-out;
+  }
